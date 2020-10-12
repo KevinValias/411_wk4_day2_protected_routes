@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import { Switch, Route, Redirect } from 'react-router'
 import cookie from 'cookie'
-import Home from './components/Home'
+import Home from './containers/Home'
 import About from './components/About'
 import Car from './components/Car';
 import Login from './components/Login';
+
 
 
 // Write checkAuth function here

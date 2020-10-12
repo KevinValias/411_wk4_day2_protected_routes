@@ -33,6 +33,13 @@ class App extends Component {
             <TextField
               required
               onChange={this.handleTextChange}
+              value={this.state.email}
+              name="email"
+              label="Email"
+              type="text" />
+            <TextField
+              required
+              onChange={this.handleTextChange}
               value={this.state.username}
               name="username"
               label="Username"
